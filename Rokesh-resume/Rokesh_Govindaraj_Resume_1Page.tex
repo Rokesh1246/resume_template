@@ -1,0 +1,184 @@
+%-------------------------
+% Resume in Latex
+% Candidate : Rokesh Govindaraj
+% Role      : Flutter Developer (2+ Years Experience)
+% Format    : 1-Page ATS-Optimized Master Resume (Full Page Density)
+% License   : MIT
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[letterpaper, margin=0.4in, top=0.32in, bottom=0.32in]{geometry}
+
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\pagestyle{empty}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\normalsize\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small#1 & \small #2 \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-3pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=\tiny$\bullet$, itemsep=1.2pt, parsep=0pt, topsep=1.5pt, partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape \textbf{Rokesh Govindaraj}} \\ \vspace{2pt}
+    \small Chennai, Tamil Nadu, India \ $|$ \ +91 9943719312 \ $|$ \
+    \href{mailto:roga719@gmail.com}{\underline{roga719@gmail.com}} \ $|$ \
+    \href{https://www.linkedin.com/in/rokesh-g-878868255}{\underline{linkedin.com/in/rokesh-g-878868255}}
+\end{center}
+\vspace{-6pt}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\vspace{1pt}
+\small{
+Results-driven \textbf{Flutter Developer} with \textbf{2+ years of hands-on experience} developing, scaling, and deploying high-performance cross-platform mobile apps for Android and iOS using Flutter and Dart. Strong technical expertise in reactive state management (\textbf{Provider, GetX}), REST API integration with Dio/HTTP interceptors, Firebase ecosystem, secure JWT authentication with refresh token rotation, and payment gateways (\textbf{Cashfree, Apple IAP}). Proven track record across 4 live production apps in AI collaboration, telemedicine, and hyperlocal logistics.
+}
+\vspace{-1pt}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Doubletap Innovations and Technologies Pvt. Ltd.}{Chennai, Tamil Nadu}
+      {Mobile App Developer --- Full-Time}{Dec 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Architect and engineer scalable cross-platform mobile applications for Android and iOS adhering to Material 3 and Apple HIG.}
+        \resumeItem{Manage app state and isolate business logic using the \textbf{Provider} pattern with clean, maintainable architecture.}
+        \resumeItem{Integrate \textbf{Cashfree Payment Gateway} for online transactions, subscription checkouts, and secure verification.}
+        \resumeItem{Implement secure \textbf{JWT authentication with automated refresh token rotation} and REST APIs with HTTP interceptors.}
+        \resumeItem{Integrate \textbf{Google Maps API} and geolocation services; resolve Android (Gradle) and iOS (Xcode, CocoaPods) build constraints.}
+        \resumeItem{Maintain source code, feature branching workflows, pull requests, and code reviews using \textbf{Git} and \textbf{GitHub}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Relie Tech Software Solution}{Puducherry}
+      {Flutter Developer Intern}{Aug 2024 -- Nov 2025}
+      \resumeItemListStart
+        \resumeItem{Built production Flutter applications for Android and iOS with responsive, 60 FPS widget trees and clean UI.}
+        \resumeItem{Configured \textbf{Firebase backend services}, including Authentication, Cloud Firestore real-time DB, and Cloud Storage.}
+        \resumeItem{Integrated REST APIs, handled asynchronous data streams, and resolved platform-specific edge cases with DevTools.}
+        \resumeItem{Collaborated with senior engineers on release testing, QA bug resolution, and Google Play Store deployment.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------KEY PROJECTS-----------
+\section{Key Production Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{TOICE -- AI Task Collaboration App} $|$ \emph{Flutter, Socket.IO, Cashfree, Apple IAP, FCM}}{Android \& iOS}
+      \resumeItemListStart
+        \resumeItem{Architected task management system with priority filters, team collaboration workflows, and an \textbf{AI Task PRD} generator.}
+        \resumeItem{Implemented low-latency real-time chat using \textbf{Socket.IO} with media uploads and delivery status indicators.}
+        \resumeItem{Integrated dual subscription monetization via \textbf{Apple IAP} and \textbf{Cashfree}; configured push notifications via FCM.}
+        \resumeItem{Profiled app performance via Flutter DevTools, resolved native platform build constraints, and maintained fluid 60 FPS.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{SAALUVER -- Patient Healthcare Platform} $|$ \emph{Flutter, Provider, JWT, Cashfree}}{Android \& iOS}
+      \resumeItemListStart
+        \resumeItem{Built patient care modules including doctor discovery, appointment booking, lab tests, and pharmacy prescription refills.}
+        \resumeItem{Integrated an intelligent \textbf{AI healthcare chatbot} for guided symptom triage and Cashfree for consultation payments.}
+        \resumeItem{Configured secure session management with \textbf{JWT authentication and automated refresh token rotation} via Provider.}
+        \resumeItem{Implemented laboratory test booking with digital medical reports access and pharmacy order tracking.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{INTERNSHARKS -- Recruitment Discovery App} $|$ \emph{Flutter, GetX, Dio, REST API}}{Android \& iOS}
+      \resumeItemListStart
+        \resumeItem{Developed candidate and recruiter portals featuring internship vacancy posting, applicant tracking, and candidate filters.}
+        \resumeItem{Architected centralized reactive state using \textbf{GetX}; built \textbf{Dio} HTTP networking with JWT interceptors and error handling.}
+        \resumeItem{Implemented persistent local storage using SharedPreferences for offline session caching and user preferences.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{LE PONT -- Hyperlocal Delivery App} $|$ \emph{Flutter, Google Maps API, Geolocation}}{Android \& iOS}
+      \resumeItemListStart
+        \resumeItem{Engineered on-demand pickup and delivery mobile application serving hyperlocal logistics with device GPS geolocation.}
+        \resumeItem{Integrated \textbf{Google Maps API} for automated fare estimation, interactive address selection, and live route tracking timelines.}
+        \resumeItem{Designed intuitive pickup/drop-off location selectors and live order status progression timelines for active deliveries.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}, itemsep=1.5pt, parsep=0pt, topsep=1pt]
+    \small{\item{
+     \textbf{Mobile Development}{: Flutter, Dart, Android SDK, iOS, Material Design 3, Cupertino, Responsive UI Layouts} \\
+     \textbf{State \& Architecture}{: Provider, GetX, Clean Architecture Principles, MVC} \\
+     \textbf{Backend \& APIs}{: REST APIs, Dio Client, JSON, Socket.IO (WebSockets), Firebase (Auth, Firestore, Storage, FCM)} \\
+     \textbf{Integrations \& Security}{: Cashfree Payment Gateway, Apple IAP, Google Maps API, JWT Authentication, Refresh Tokens, RBAC} \\
+     \textbf{Tools \& Languages}{: Git, GitHub, Android Studio, VS Code, Xcode, Postman, SQLite, SharedPreferences $|$ Java, Python} \\
+     \textbf{Languages Known}{: Tamil (Native), English (Professional Working Proficiency)}
+    }}
+ \end{itemize}
+ \vspace{-4pt}
+
+%-----------EDUCATION & TRAINING-----------
+\section{Education \& Professional Training}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Government Arts College, Trichy (Bharathidasan University)}{Tiruchirappalli, Tamil Nadu}
+      {Bachelor of Science in Chemistry (B.Sc. Chemistry) --- Aggregate: 70\%}{Graduated}
+    \vspace{-2pt}
+    \item
+      \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{Full Stack \& Mobile Development Training (6 Months)} --- RelieTech, Puducherry & \small Specialized in Flutter \& Firebase \\
+        \textbf{Basic Python Certification (3 Months)} --- CSC (Common Service Center), Tamil Nadu & \small Core Programming Fundamentals \\
+      \end{tabular*}\vspace{-6pt}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

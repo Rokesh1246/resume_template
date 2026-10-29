@@ -1,0 +1,29 @@
+Subject: Application for Flutter Developer Role - Rokesh Govindaraj (2+ Years Experience)
+
+Dear Hiring Team at Simplita AI,
+
+I am writing to express my strong interest in the Flutter Developer position at Simplita AI. With over 2 years of hands-on experience developing, debugging, and publishing cross-platform mobile applications using Flutter and Dart, I am confident in my ability to contribute effectively to your remote engineering team from day one.
+
+As a native Tamil speaker with solid remote work proficiency, I meet all your eligibility requirements:
+- Flutter & Dart: 2+ years of professional experience building scalable iOS and Android applications.
+- REST API Integration: Extensive experience consuming complex RESTful APIs, parsing JSON streams, and managing network states with Dio/HTTP.
+- Firebase: Hands-on implementation of Firebase Authentication, Cloud Firestore real-time databases, Cloud Storage, and FCM push notifications.
+- State Management: Proficient in Provider and GetX architecture for maintainable and reactive codebases.
+- Git & Debugging: Experienced in Git workflows (PRs, branch management), DevTools performance profiling, and resolving native Gradle/Xcode build issues.
+- Independent Remote Execution: Proven capability to take ownership of end-to-end mobile app features from concept to production.
+
+In addition, I have direct experience integrating AI features into Flutter apps (such as an AI Task PRD generator and AI conversational chatbot in my production projects TOICE and SAALUVER), which aligns closely with Simplita AI's product vision.
+
+My resume is attached for your review. I would welcome the opportunity to discuss how my skill set and enthusiasm can support Simplita AI's upcoming initiatives.
+
+Thank you for your time and consideration.
+
+Warm regards,
+
+Rokesh Govindaraj
+Mobile App Developer (Flutter / Dart)
+Phone: +91 9943719312
+Email: roga719@gmail.com
+LinkedIn: https://www.linkedin.com/in/rokesh-g-878868255
+Location: Chennai, Tamil Nadu, India
+Languages: Tamil (Native), English (Professional)

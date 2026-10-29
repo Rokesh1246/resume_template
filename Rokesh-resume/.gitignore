@@ -1,0 +1,8 @@
+# Keep PDFs tracked for easy downloads and GitHub storage
+# Temporary auxiliary LaTeX build files (if any)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
